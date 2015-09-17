@@ -1,18 +1,3 @@
-var Header = React.createClass({
-    render: function () {
-        return (
-            <h1 className="title">{this.props.text}</h1>
-        );
-    }
-});
-
-var SearchBar = React.createClass({
-    render: function () {
-        return (
-            <input type="search" />
-        );
-    }
-});
 
 var ContactList = React.createClass({
     render: function(){
