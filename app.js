@@ -2,7 +2,7 @@
 var ContactList = React.createClass({
     render: function(){
         return {
-                //Instantiate a reference 
+           //Instantiate a reference 
           var data = new SObjectModel.acc();
           //process the data received in return
           data.retrieve({ limit: 10 } ,function(err, records){
